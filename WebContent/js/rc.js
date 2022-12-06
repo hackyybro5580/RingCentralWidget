@@ -13,8 +13,8 @@ RC ={
 function loginValidation()
 {
 		sdk = new RingCentral.SDK({
-	            appKey: "xxxxxxxxxxxxxxxxxxxxx", // Junk Key - This is not an active Key
-	            appSecret: "xxxxx-xxxxxxxxxx_xxxxxxxxxxx",// Junk Key - This is not an active Key
+	            appKey: "xxxxxxxxxxxxxxxxxxxxx", // Junk Key
+	            appSecret: "xxxxx-xxxxxxxxxx_xxxxxxxxxxx",// Junk Secret
 	            server: "https://platform.ringcentral.com"
 	        });
 
@@ -34,8 +34,8 @@ function loginValidation()
 }
 RC.config={
 		Server:"https://platform.ringcentral.com",
-		AppKey:"Ypt9cnvIRUWiYcX31n1_HQ",// Junk Key - This is not an active Key
-		AppSecret:"SCapn7-pR4ehgG2REOagHwX_ZagE6WSkCZdR0kTPGfIg",// Junk Key - This is not an active Key
+		AppKey:"xxxxxxxxxxxxxxxxxxxxx", // Junk Key
+		AppSecret:"xxxxx-xxxxxxxxxx_xxxxxxxxxxx",// Junk Secret
 		LogLevel:"0"
 }
 RC.login =  function(server, appKey, appSecret) {
